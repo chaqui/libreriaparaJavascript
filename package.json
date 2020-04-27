@@ -1,12 +1,23 @@
 {
-  "name": "libreria_prueba_chaqui",
+  "name": "libreria",
   "version": "1.0.0",
-  "description": "",
+  "description": "libreria prueba",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaqui/libreriaparaJavascript.git"
+  },
+  "keywords": [
+    "libreria",
+    "prueba"
+  ],
+  "author": "chaqui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaqui/libreriaparaJavascript/issues"
+  },
+  "homepage": "https://github.com/chaqui/libreriaparaJavascript#readme"
 }
