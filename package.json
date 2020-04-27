@@ -1,10 +1,10 @@
 {
-  "name": "libreria",
+  "name": "@chaqui/libreria-prueba",
   "version": "1.0.0",
   "description": "libreria prueba",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/chaqui/libreriaparaJavascript/issues"
   },
-  "homepage": "https://github.com/chaqui/libreriaparaJavascript#readme"
+  "homepage": "https://github.com/chaqui/libreriaparaJavascript#readme",
+  "devDependencies": {
+    "mocha": "^7.1.2"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
